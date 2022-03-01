@@ -1,0 +1,637 @@
+@font-face {
+    font-family: 'Mulish-Regular';
+    src: url('../fonts/Mulish-Regular.eot');
+    src: url('../fonts/Mulish-Regular.eot') format('embedded-opentype'), url('../fonts/Mulish-Regular.woff')
+    format('woff2'), url('../fonts/Mulish-Regular.woff') format('woff'), url('../fonts/Mulish-Regular.ttf')
+    format('truetype'), url('../fonts/Mulish-Regular.svg#fontawesomeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Mulish-Italic';
+    src: url('../fonts/Mulish-Italic.eot');
+    src: url('../fonts/Mulish-Italic.eot') format('embedded-opentype'), url('../fonts/Mulish-Italic.woff')
+    format('woff2'), url('../fonts/Mulish-Italic.woff') format('woff'), url('../fonts/Mulish-Italic.ttf')
+    format('truetype'), url('../fonts/Mulish-Italic.svg#fontawesomeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Mulish-Bold';
+    src: url('../fonts/Mulish-Bold.eot');
+    src: url('../fonts/Mulish-Bold.eot') format('embedded-opentype'), url('../fonts/Mulish-Bold.woff')
+    format('woff2'), url('../fonts/Mulish-Bold.woff') format('woff'), url('../fonts/Mulish-Bold.ttf')
+    format('truetype'), url('../fonts/Mulish-Bold.svg#fontawesomeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Sen-Regular';
+    src: url('../fonts/Sen-Regular.eot');
+    src: url('../fonts/Sen-Regular.eot') format('embedded-opentype'), url('../fonts/Sen-Regular.woff')
+    format('woff2'), url('../fonts/Sen-Regular.woff') format('woff'), url('../fonts/Sen-Regular.ttf')
+    format('truetype'), url('../fonts/Sen-Regular.svg#fontawesomeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Sen-Bold';
+    src: url('../fonts/Sen-Bold.eot');
+    src: url('../fonts/Sen-Bold.eot') format('embedded-opentype'), url('../fonts/Sen-Bold.woff')
+    format('woff2'), url('../fonts/Sen-Bold.woff') format('woff'), url('../fonts/Sen-Bold.ttf')
+    format('truetype'), url('../fonts/Sen-Bold.svg#fontawesomeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+p {
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: #333333;
+}
+
+a:hover,
+a:focus {
+    color: #0d7cd6;
+    text-decoration: none;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul, ol {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.fixed {
+    position: fixed !important;
+    top: 0px;
+    z-index: 9999;
+    width: 100%;
+}
+.clearfix-130{
+    clear: both;
+    height: 130px;
+}
+.clearfix-100{
+    clear: both;
+    height: 100px;
+}
+.clearfix-80{
+    clear: both;
+    height: 80px;
+}
+.clearfix-60{
+    clear: both;
+    height: 60px;
+}
+.clearfix-62{
+    clear: both;
+    height: 62px;
+}
+.clearfix-55{
+    clear: both;
+    height: 55px;
+}
+.clearfix-50{
+    clear: both;
+    height: 50px;
+}
+.clearfix-45{
+    clear: both;
+    height: 45px;
+}
+.clearfix-40{
+    clear: both;
+    height: 40px;
+}
+.clearfix-35{
+    clear: both;
+    height: 35px;
+}
+.clearfix-30{
+    clear: both;
+    height: 30px;
+}
+.clearfix-32{
+    clear: both;
+    height: 32px;
+}
+.clearfix-25{
+    clear: both;
+    height: 25px;
+}
+.clearfix-20{
+    clear: both;
+    height: 20px;
+}
+.clearfix-15{
+    clear: both;
+    height: 15px;
+}
+.clearfix-12{
+    clear: both;
+    height: 12px;
+}
+.clearfix-10{
+    clear: both;
+    height: 10px;
+}
+.clearfix-5{
+    clear: both;
+    height: 5px;
+}
+
+body {
+    background: #fff;
+    font-size: 12px;
+    font-family: 'Mulish-Regular';
+    color: #000;
+}
+
+del {
+    font-size: 12px;
+    color: #999;
+}
+
+img {
+    max-width: 100%;
+}
+
+/*===========All=============*/ 
+.w_100 {
+    width: 100%;
+}
+
+.w_40 {
+    width: 40%;
+}
+
+.w_60 {
+    width: 60%;
+}
+
+/*==========Main============*/
+
+.container-fluid {
+    max-width: 1300px;
+}
+
+.section_header_news {
+    min-height: 450px;
+    display: flex;
+    align-items: center;
+    background: url(../imgs/poster.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.title_header_news {
+    font-size: 48px;
+    font-family: 'Mulish-Bold';
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.btn_sign_up {
+    min-height: 52px;
+    background: #DB3E78;
+    border-radius: 8px;
+    padding: 5px 24px;
+    font-family: "Sen-Bold";
+    font-size: 18px;
+    color: #FFFFFF;
+    transition: all .3s;
+}
+
+.btn_sign_up:hover {
+    background: #DB3E78;
+    color: #FFFFFF;
+    opacity: 0.95;
+}
+
+.section_list_news {
+    padding: 40px 0px;
+}
+
+.nav_news {
+    margin-bottom: 30px;
+}
+
+.nav_news .menu-item {
+    background: #CFCFCF;
+    border-radius: 8px;
+    padding: 15px 36px;
+    font-family: "Sen-Bold";
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-right: 25px;
+    margin-bottom: 5px;
+    transition: all .3s;
+}
+
+.nav_news .menu-item:hover {
+    color: #FFFFFF;
+    background: #DB3E78;
+    opacity: 0.95;
+}
+
+
+.nav_news .menu-item.current-menu-item {
+    color: #FFFFFF;
+    background: #DB3E78;
+}
+
+.list_news {
+    display: grid;
+    gap: 45px 45px;
+    grid-template-columns: repeat(auto-fill, calc((100% - 90px) / 3 ));
+}
+
+.card_new .name_categories {
+    font-family: "Mulish-Bold";
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #7657DB;
+    margin-bottom: 5px;
+}
+
+.card_new .name_categories a {
+    transition: all .3s;
+    color: #7657DB;
+}
+
+.card_new .name_categories a:hover {
+    color: #7657DB;
+    text-decoration: underline;
+}
+
+.card_new .date_card {
+    font-size: 15px;
+    line-height: 25px;
+    color: #677294;
+    margin-bottom: 10px;
+    transition: all .3s;
+}
+
+.img_new {
+    display: block;
+    width: 100%;
+}
+
+.img_new:hover {
+    opacity: 0.95;
+}
+
+.img_new img {
+    width: 100%;
+}
+
+.sub_new {
+    padding-top: 10px;
+}
+
+.title_new {
+    font-family: "Mulish-Bold";
+    font-size: 24px;
+    line-height: 25px;
+    color: #7657DB;
+    margin-bottom: 5px;
+}
+
+.title_new a {
+    transition: all .3s;
+    color: #7657DB;
+}
+
+.title_new a:hover {
+    color: #7657DB;
+    text-decoration: underline;
+}
+
+.des_new {
+    font-size: 15px;
+    line-height: 25px;
+    color: #677294;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.btn_submit_detail,
+.btn_see_more {
+    max-width: 100%;
+    min-height: 52px;
+    background: #7657DB;
+    border-radius: 10px;
+    padding: 5px 24px;
+    width: 172px;
+    font-family: "Sen-Bold";
+    font-size: 18px;
+    color: #FFFFFF;
+    transition: all .3s;
+}
+
+.btn_see_more:hover {
+    background: #7657DB;
+    color: #FFFFFF;
+    opacity: 0.95;
+}
+
+.section_contact {
+    padding: 45px 0 75px 0;
+    background: #EAEAEA;
+}
+
+.title_contact {
+    font-family: "Mulish-Bold";
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #7657DB;
+}
+
+.des_title_contact {
+    font-family: "Mulish-Bold";
+    font-size: 42px;
+    line-height: 55px;
+    text-align: center;
+    color: #01105B;
+}
+
+.input_form_subscribe,
+.input_form_contact {
+    border-color: #FFFFFF;
+    background: #FFFFFF;
+    height: 48px;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.textarea_form_contact::-webkit-input-placeholder,
+.input_form_contact::-webkit-input-placeholder {
+    font-size: 16px;
+    line-height: 28px;
+    color: #8688AA;
+}
+
+.textarea_form_contact:-ms-input-placeholder,
+.input_form_contact:-ms-input-placeholder {
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.textarea_form_contact::placeholder,
+.input_form_contact::placeholder {
+    font-size: 16px;
+    line-height: 28px;
+    color: #8688AA;
+}
+
+.input_form_contact::-webkit-outer-spin-button,
+.input_form_contact::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.input_form_contact[type=number] {
+  -moz-appearance: textfield;
+}
+
+.textarea_form_contact {
+    border-color: #FFFFFF;
+    background: #FFFFFF;
+    height: 200px;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.modal_dialog_sign_up_success,
+.modal_dialog_sign_up {
+    max-width: 740px;
+}
+
+.modal_header_sign_up {
+    border-bottom: none;
+    padding: 0;
+}
+
+.modal_header_sign_up .btn-close {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    top: 22px;
+    right: 22px;
+    background-color: #C4C4C4;
+    border-radius: 50%;
+    z-index: 22;
+}
+
+.form_sign_up {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.form_sign_up .modal_title {
+    font-family: "Sen-Bold";
+    font-size: 78px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #7657DB;
+    margin-bottom: 2px;
+}
+
+.form_sign_up .des_modal_title {
+    font-family: "Sen-Bold";
+    font-size: 38px;
+    text-align: center;
+    color: #424071;
+    margin-bottom: 35px;
+}
+
+.form_sign_up .sub_modal_title {
+    font-family: "Sen-Bold";
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    color: #424071;
+}
+
+.form_sign_up .sub_modal_title a {
+    color: #2FABDD;
+}
+
+.form_sign_up .input_form_sign_up {
+    width: 100%;
+    background: rgb(47 171 221 / 10%);
+    height: 48px;
+    border: none;
+    font-size: 16px;
+    color: #8688AA;
+}
+
+.form_sign_up .group_input_modl {
+    margin: auto;
+    margin-top: 20px;
+    max-width: 100%;
+    width: 437px;
+}
+
+.modal_body_sign_up_success {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 110px;
+    padding-bottom: 125px;
+    text-align: center;
+}
+
+.content_sign_up_success .modal_title {
+    font-family: "Sen-Bold";
+    font-size: 123px;
+    text-transform: uppercase;
+    color: #2FABDD;
+    opacity: 0.12;
+    margin-bottom: 0px;
+}
+
+.content_sign_up_success .des_modal_title {
+    font-family: "Sen-Bold";
+    font-size: 66px;
+    color: #424071;
+    margin-top: -70px;
+    margin-bottom: 10px;
+}
+
+.content_sign_up_success .sub_modal_title {
+    font-family: "Sen-Regular";
+    font-size: 15px;
+    line-height: 18px;
+    color: #424071;
+}
+
+/* =============================detail news============================= */
+
+.section_header_news_detail {
+    padding: 40px 0px;
+    text-align: right;
+}
+
+.swap_new_detail {
+    display: flex;
+}
+
+.left_new_detail {
+    flex: calc(100% - 495px);
+    padding: 75px 0;
+    padding-right: 36px;
+}
+
+.categories_detail {
+    font-family: "Sen-Bold";
+    font-size: 18px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #7657DB;
+    margin-bottom: 0px;
+}
+
+.date_categories_detail {
+    font-size: 15px;
+    line-height: 25px;
+    color: #677294;
+}
+
+.title_detail {
+    font-family: "Sen-Bold";
+    font-size: 64px;
+    color: #7657DB;
+    margin-bottom: 0px;
+}
+
+.body_text_news {
+    font-size: 15px;
+    color: #677294;
+}
+
+.right_new_detail {
+    flex: calc(495px);
+    background: #EAEAEA;
+    padding: 30px;
+}
+
+.title_right_detail {
+    font-size: 24px;
+    font-family: "Sen-Bold";
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #7657DB;
+    margin-bottom: 30px;
+}
+
+.list_news_detail {
+    display: grid;
+    gap: 45px 45px;
+    grid-template-columns: repeat(auto-fill, 100%);
+}
+
+.section_subscribe_detail {
+    margin: 55px 0px;
+    padding: 70px 0 100px 0;
+    background: #EAEAEA;
+}
+
+.form_subscribe_detail {
+    width: 1100px;
+    max-width: 100%;
+    margin: auto;
+}
+
+.title_subscribe {
+    font-family: "Sen-Bold";
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #7657DB;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.des_title_subscribe {
+    font-family: "Sen-Bold";
+    font-size: 42px;
+    text-transform: uppercase;
+    color: #01105B;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.input_form_subscribe {
+    height: 52px;
+}
+
+.btn_submit_detail {
+    background: #DB3E78;
+    color: #FFFFFF;
+    margin-top: 5px;
+}
+
+.btn_submit_detail:hover {
+    background: #DB3E78;
+    color: #FFFFFF;
+}

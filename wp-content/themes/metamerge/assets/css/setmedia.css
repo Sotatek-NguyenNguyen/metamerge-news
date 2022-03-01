@@ -1,0 +1,141 @@
+@media (min-width:1200px) /* lg*/ {
+}
+
+@media (min-width:992px) and (max-width:1199px) /* md*/{
+  
+
+  .left_new_detail {
+    flex: calc(100% - 300px);
+  }
+
+  .right_new_detail {
+      flex: calc(300px);
+  }
+}
+
+@media (min-width:768px) and (max-width:991px) /* sm*/{
+  .swap_new_detail {
+    flex-direction: column;
+  }
+
+  .left_new_detail {
+    flex: calc(100%);
+    padding-right: 0;
+  }
+
+  .right_new_detail {
+    flex: calc(100%);
+  }
+
+  .list_news_detail,
+  .list_news {
+    gap: 45px 25px;
+    grid-template-columns: repeat(auto-fill, calc((100% - 50px) / 3 ));
+  }
+}
+
+@media (max-width:767px) /* xs*/{
+  .swap_new_detail {
+    flex-direction: column;
+  }
+
+  .title_detail {
+    font-size: 40px;
+  }
+
+  .left_new_detail {
+    flex: calc(100%);
+    padding-right: 0;
+  }
+
+  .right_new_detail {
+    flex: calc(100%);
+  }
+
+  .section_header_news {
+    min-height: 400px;
+  }
+
+  .title_header_news {
+    font-size: 24px;
+  }
+
+  .btn_sign_up {
+    font-size: 14px;
+    min-height: 40px;
+  }
+  .nav_news .nav-link {
+    padding: 10px 15px;
+    font-size: 16px;
+  }
+
+  .title_new {
+    font-size: 20px;
+  }
+
+  .des_new {
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+  .list_news_detail,
+  .list_news {
+    gap: 45px 45px;
+    grid-template-columns: repeat(auto-fill, calc((100% - 45px) / 2 ));
+  }
+
+  .des_title_contact {
+    font-size: 30px;
+  }
+
+  .btn_submit_detail,
+  .btn_see_more {
+    min-height: 40px;
+    min-width: 160px;
+    font-size: 15px;
+  }
+
+  .form_sign_up .modal_title {
+    font-size: 40px;
+  }
+
+  .form_sign_up .des_modal_title {
+    font-size: 24px;
+  }
+  
+  .form_sign_up .sub_modal_title {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .content_sign_up_success .modal_title {
+    font-size: 90px;
+    line-height: 80px;
+  }
+
+  .content_sign_up_success .des_modal_title {
+    font-size: 50px;
+  }
+    
+  .title_subscribe {
+    font-size: 14px;
+  }
+
+  .des_title_subscribe {
+    font-size: 24px;
+  }
+}
+
+@media (max-width:480px) {
+
+  .list_news_detail,
+  .list_news {
+    grid-template-columns: repeat(auto-fill, 100%);
+  }
+  
+}
+
+
+.visible-480{
+    display: none;
+}
