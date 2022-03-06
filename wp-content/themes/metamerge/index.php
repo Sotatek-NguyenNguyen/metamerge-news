@@ -55,7 +55,7 @@ get_header();
 
 			<div class="card_new">
 				<h2 class="name_categories"><a href="">Categories</a></h2>
-				<div class="date_card">Date (<?php the_time(get_option( 'date_format' )) ?>)</div>
+				<div class="date_card"> <?php the_time(get_option( 'date_format' )) ?> </div>
 				<a href="<?php the_permalink(); ?>" alt="<?php the_title_attribute(); ?>" class="img_new">
 					<?php the_post_thumbnail(); ?> 
 				</a>

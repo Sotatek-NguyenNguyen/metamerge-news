@@ -40,17 +40,12 @@ get_header();
 			<div class="swap_new_detail">
 				
             <div class="left_new_detail">
-			<?php wp_nav_menu( array( 
-			  	'theme_location' 	=> 'meta-menu', 
-		  		'container_class'	=> '',
-				'menu_class'       	=> 'nav nav_news',
-        		'items_wrap'           => '<ul id="%1$s" class="%2$s">%3$s</ul>',
-				   ) ); ?>
+			
 				<?php while ( have_posts() ) : the_post(); ?>
 		
 					<h2 class="categories_detail">Categories</h2>
 					<div class="clearfix clearfix-5"></div>
-					<div class="date_categories_detail">Date (<?php the_time(get_option( 'date_format' )) ?>)</div>
+					<div class="date_categories_detail"> <?php the_time(get_option( 'date_format' )) ?></div>
 					<div class="clearfix clearfix-5"></div>
 					<h3 class="title_detail"><?php the_title(); ?></h3>
 					<div class="clearfix clearfix-30"></div>
@@ -67,7 +62,7 @@ get_header();
 			  	<?php 
 				// the query
 				$the_query = new WP_Query( array(
-					'posts_per_page' => 5,
+					'posts_per_page' => 3,
 				)); 
 				?>	
 				<?php if ( $the_query->have_posts() ) : ?>

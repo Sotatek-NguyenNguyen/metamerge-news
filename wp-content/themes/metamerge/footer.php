@@ -21,43 +21,43 @@
               <h2 class="des_title_contact">Media Contact</h2>
             </div>
             <div class="col-md-6">
-              <input type="text" class="form-control input_form_contact" id="name" name="name" placeholder="Name *" required>
+              <input type="text" class="form-control input_form_contact" id="name" name="name" placeholder="Name*" required>
               <div class="invalid-feedback">
                 Please provide a valid name.
               </div>
             </div>
             <div class="col-md-6">
-              <input type="email" class="form-control input_form_contact" id="email" name="email" placeholder="Email *" required>
+              <input type="email" class="form-control input_form_contact" id="email" name="email" placeholder="Email*" required>
               <div class="invalid-feedback">
                 Please provide a valid email.
               </div>
             </div>
             <div class="col-md-6">
-              <input type="number" class="form-control input_form_contact" id="mobile_phone" name="mobile_phone" placeholder="Mobile Phone *" required>
+              <input type="number" class="form-control input_form_contact" id="mobile_phone" name="mobile_phone" placeholder="Mobile Phone*" required>
               <div class="invalid-feedback">
                 Please provide a valid Mobile Phone.
               </div>
             </div>
             <div class="col-md-6">
-              <input type="text" class="form-control input_form_contact" id="country" name="country" placeholder="Country *" required>
+              <input type="text" class="form-control input_form_contact" id="country" name="country" placeholder="Country*" required>
               <div class="invalid-feedback">
                 Please provide a valid Country.
               </div>
             </div>
             <div class="col-md-6">
-              <input type="text" class="form-control input_form_contact" id="company" name="company" placeholder="Company *" required>
+              <input type="text" class="form-control input_form_contact" id="company" name="company" placeholder="Company*" required>
               <div class="invalid-feedback">
                 Please provide a valid Company.
               </div>
             </div>
             <div class="col-md-6">
-              <input type="text" class="form-control input_form_contact" id="position" name="position" placeholder="Position *" required>
+              <input type="text" class="form-control input_form_contact" id="position" name="position" placeholder="Position*" required>
               <div class="invalid-feedback">
                 Please provide a valid Position.
               </div>
             </div>
             <div class="col-md-12">
-              <textarea id="media_inquiries" class="form-control textarea_form_contact" name="media_inquiries" placeholder="Media Inquiries.... *" style="height:200px" required></textarea>
+              <textarea id="media_inquiries" class="form-control textarea_form_contact" name="media_inquiries" placeholder="Media Inquiries....*" style="height:200px" required></textarea>
               <div class="invalid-feedback">
                 Please provide a valid Media Inquiries.
               </div>
@@ -177,7 +177,56 @@
 
 		<div class="clearfix"></div>
 
-<footer id="footer"></footer>
+<footer id="footer">
+	<div class="container-fluid">
+        <div class="swap_footer">
+          <div class="logoFooter">
+            <img class="logo_footer" src="<?php echo get_template_directory_uri(); ?>/assets/imgs/logo_high.png" alt="<?php echo get_template_directory_uri(); ?>/assets/imgs/logo_high.png">
+          </div>
+          <div class="right_footer">
+            <div class="navFooter">
+              <h3 class="nameNavFooter">About</h3>
+              <ul>
+                <li class="itemNav_ft"><a href="https://medium.com/@metamerge" target="_blank">News</a></li>
+                <li class="itemNav_ft"><a href="https://docs.metamerge.game" target="_blank">Document</a></li>
+                <li class="itemNav_ft"><a href="https://market.metamerge.game" target="_blank">Marketplace</a></li>
+                <li class="itemNav_ft"><a href="https://metamerge.game/#/brand" target="_blank">Brand Assets</a></li>
+              </ul>
+            </div>
+            <div class="navFooter">
+              <h3 class="nameNavFooter">Info</h3>
+              <ul>
+                <li class="itemNav_ft"><a href="https://docs.metamerge.game/terms-of-use" target="_blank">Terms of Use</a>
+                </li>
+                <li class="itemNav_ft"><a href="https://docs.metamerge.game/privacy-policy" target="_blank">Privacy
+                    Policy</a></li>
+                <li class="itemNav_ft"><a href="https://docs.metamerge.game/risk-disclosure" target="_blank">Risk
+                    Disclosure</a>
+                </li>
+              </ul>
+            </div>
+            <div class="navFooter navFooterSocial">
+              <h3 class="nameNavFooter">Social</h3>
+              <ul>
+                <li class="item_social_ft"><a href="https://t.me/metamerge" target="_blank"><img
+                      src="<?php echo get_template_directory_uri(); ?>/assets/imgs/footer/Icon_Telegram.png" alt="imgs/footer/Icon_Telegram.png"></a></li>
+                <li class="item_social_ft"><a href="https://twitter.com/meta_merge" target="_blank"><img
+                      src="<?php echo get_template_directory_uri(); ?>/assets/imgs/footer/Icon_Twitter.png" alt="imgs/footer/Icon_Twitter.png"></a></li>
+                <li class="item_social_ft"><a href="https://discord.link/metamerge" target="_blank"><img
+                      src="<?php echo get_template_directory_uri(); ?>/assets/imgs/footer/Icon_Discord.png" alt="imgs/footer/Icon_Discord.png"></a></li>
+                <li class="item_social_ft"><a href="https://medium.com/@metamerge" target="_blank"><img
+                      src="<?php echo get_template_directory_uri(); ?>/assets/imgs/footer/Icon_Medium.png" alt="imgs/footer/Icon_Medium.png"></a></li>
+                <li class="item_social_ft"><a href="https://www.facebook.com/metamerge/" target="_blank"><img
+                      src="<?php echo get_template_directory_uri(); ?>/assets/imgs/footer/Icon_Facebook.png" alt="imgs/footer/Icon_Facebook.png"></a></li>
+                <li class="item_social_ft"><a href="https://www.youtube.com/channel/UCtewLVBjaRSfzn4LL9YHJ-A"
+                    target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/footer/Icon_Youtube.png" alt="imgs/footer/Icon_Youtube.png"></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </div>
+</footer>
 
 <!-- Modal Sign up -->
 <div class="modal fade" id="modalSignUp" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">

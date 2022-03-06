@@ -25,7 +25,7 @@
     <meta property="og:type" content="article"/>
     <meta property="og:title" content="MetaMerge"/>
     <meta property="og:description" content="MetaMerge"/>
-    <meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/imgs/poster.jpg"/>
+    <meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/imgs/poster_2.jpg"/>
     <title>MetaMerge News</title>
 
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>"/>
@@ -40,6 +40,35 @@
   <body>
 		
 <?php  wp_enqueue_style( 'slider', get_template_directory_uri() . '/css/slider.css',false,'1.1','all'); ?>
-    <header id="header"></header>
+    <header id="header">
+      <div class="box_nav_header">
+
+        <div class="d-none d-xl-block">
+          <ul class="nav_header">
+            <li class="item_nav"><a href="https://metamerge.game/#/">Home</a></li>
+            <li class="item_nav"><a href="https://play.metamerge.game/#/">Play</a></li>
+            <li class="item_nav"><a href="https://market.metamerge.game/#/">Marketplace</a></li>
+            <li class="item_nav"><a href="https://docs.metamerge.game/">Document</a></li>
+          </ul>
+        </div>
+
+        <div class="d-block d-xl-none">
+          <div class="header_mobile">
+            <a href="https://metamerge.game/#/">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/logo_high.png" alt="<?php echo get_template_directory_uri(); ?>/assets/imgs/logo_high.png" class="logo_mobile_menu">
+            </a>
+            <button type="submit" class="btn_showMenuMobile" data-bs-dismiss="modal" data-bs-toggle="modal"
+              data-bs-target="#modalMenuMobile">
+              <span class="icon_show_menu_mobile">
+                <svg class="MuiSvgIcon-root jss22" focusable="false" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path>
+                </svg>
+              </span>
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </header>
 
     <div class="clearix"></div>
