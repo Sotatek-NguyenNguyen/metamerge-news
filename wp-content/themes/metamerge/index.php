@@ -52,9 +52,10 @@ get_header();
 ?>
 <?php if ( have_posts() ) : ?>
 	<?php while ( have_posts() ) : the_post(); ?>
+	<?php $categories = get_the_category(); ?>
 
 			<div class="card_new">
-				<h2 class="name_categories"><a href="">Categories</a></h2>
+				<h2 class="name_categories"><a href="<?php echo esc_url( get_category_link(end($categories)->term_id)); ?>"><?php echo end($categories)->name; ?></a></h2>
 				<div class="date_card"> <?php the_time(get_option( 'date_format' )) ?> </div>
 				<a href="<?php the_permalink(); ?>" alt="<?php the_title_attribute(); ?>" class="img_new">
 					<?php the_post_thumbnail(); ?> 

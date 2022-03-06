@@ -19,8 +19,6 @@
 get_header();
 ?>
 
-
-
 <article id="body_home">
 	<section class="section_header_news">
         <div class="container-fluid">
@@ -42,8 +40,14 @@ get_header();
             <div class="left_new_detail">
 			
 				<?php while ( have_posts() ) : the_post(); ?>
-		
-					<h2 class="categories_detail">Categories</h2>
+				<?php 
+				$categories = get_the_category();
+				?>
+				
+					<h2 class="categories_detail">
+						<a href="<?php echo esc_url( get_category_link(end($categories)->term_id)); ?>">
+						<?php echo end($categories)->name; ?></a>
+					</h2>
 					<div class="clearfix clearfix-5"></div>
 					<div class="date_categories_detail"> <?php the_time(get_option( 'date_format' )) ?></div>
 					<div class="clearfix clearfix-5"></div>
