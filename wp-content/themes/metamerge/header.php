@@ -49,6 +49,7 @@
             <li class="item_nav"><a href="https://play.metamerge.game/#/">Play</a></li>
             <li class="item_nav"><a href="https://market.metamerge.game/#/">Marketplace</a></li>
             <li class="item_nav"><a href="https://docs.metamerge.game/">Document</a></li>
+            <li class="item_nav"><a href="#">News</a></li>
           </ul>
         </div>
 

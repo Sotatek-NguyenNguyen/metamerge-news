@@ -68,7 +68,7 @@ add_action( 'wp_enqueue_scripts', 'twentytwenty_register_scripts' );
 
 	
 add_theme_support( 'post-thumbnails' );
-set_post_thumbnail_size( 300, 9999, true ); // default Featured Image dimensions (cropped)
+set_post_thumbnail_size( 300, 9999, false ); // default Featured Image dimensions (cropped)
  
     // additional image sizes
     // delete the next line if you do not need additional image sizes

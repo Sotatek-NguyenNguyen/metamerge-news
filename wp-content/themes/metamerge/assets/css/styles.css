@@ -438,6 +438,7 @@ img {
 
 .img_new img {
     width: 100%;
+    height: auto;
 }
 
 .sub_new {
@@ -463,13 +464,14 @@ img {
 }
 
 .des_new {
-    font-size: 15px;
+    font-size: 18px;
     line-height: 25px;
     color: #677294;
     display: -webkit-box;
     -webkit-line-clamp: 5;
     -webkit-box-orient: vertical;
     overflow: hidden;
+    text-align: justify;
 }
 
 .btn_submit_detail,
@@ -731,7 +733,7 @@ img {
 }
 
 .left_new_detail {
-    flex: calc(100% - 495px);
+    flex: calc(100% - 400px);
     padding: 75px 0;
     padding-right: 36px;
 }
@@ -753,18 +755,22 @@ img {
 
 .title_detail {
     font-family: "Sen-Bold";
-    font-size: 64px;
+    /* font-size: 64px; */
     color: #22185e;
     margin-bottom: 0px;
 }
 
 .body_text_news {
-    font-size: 15px;
+    font-size: 18px;
     color: #677294;
+    text-align: justify;
+}
+.body_text_news p {
+    padding-top: 10px;
 }
 
 .right_new_detail {
-    flex: calc(495px);
+    flex: calc(400px);
     background: #EAEAEA;
     padding: 30px;
 }
