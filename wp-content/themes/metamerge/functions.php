@@ -100,10 +100,18 @@ function loadpost_init() {
             while($post_new->have_posts()):$post_new->the_post();
                 
 				echo '<div class="card_new">
-						<h2 class="name_categories"><a href="">Categories</a></h2>
-						<div class="date_card">Date (';
+						<h2 class="name_categories"><a href="
+						';
+					 	echo esc_url( get_category_link(end(get_the_category())->term_id));
+						echo '
+						">
+						';
+						echo end(get_the_category())->name;
+
+						echo '</a></h2>
+						<div class="date_card"> ';
 						echo the_time(get_option( 'date_format' ));
-						echo	')</div>
+						echo	'</div>
 						<a href="' ;
 						echo  the_permalink() ;
 						echo '" alt="'; 

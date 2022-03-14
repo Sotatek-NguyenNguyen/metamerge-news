@@ -65,7 +65,7 @@ get_header();
 						<?php the_title(); ?>   
 					</a></h3>
 					<div class="des_new">
-					<?php echo wp_trim_words(get_the_excerpt(), 32); ?> 
+					<?php echo wp_trim_words(get_the_excerpt(), 15); ?> 
 					</div>
 				</div>
 			</div>

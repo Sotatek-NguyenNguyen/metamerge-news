@@ -45,6 +45,7 @@ get_header();
 				?>
 				
 					<h2 class="categories_detail">
+						<a href="/">News</a> > 
 						<a href="<?php echo esc_url( get_category_link(end($categories)->term_id)); ?>">
 						<?php echo end($categories)->name; ?></a>
 					</h2>
@@ -79,7 +80,7 @@ get_header();
 					<div class="clearfix clearfix-20"></div>
 					<h3 class="title_new"><?php the_title(); ?></h3>
 					<div class="clearfix clearfix-5"></div>
-					<div class="des_new"><?php echo wp_trim_words(get_the_excerpt(), 30); ?></div>
+					<div class="des_new"><?php echo wp_trim_words(get_the_excerpt(), 15); ?></div>
 					</div>
 					
 					
