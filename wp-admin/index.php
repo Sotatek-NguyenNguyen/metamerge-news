@@ -1,6 +1,5 @@
 <?php
 
-opcache_reset();
 /**
  * Dashboard Administration Screen
  *
