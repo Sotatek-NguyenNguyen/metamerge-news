@@ -78,9 +78,12 @@ get_header();
 					<?php the_post_thumbnail(); ?> 
 				</a>
 					<div class="clearfix clearfix-20"></div>
-					<h3 class="title_new"><?php the_title(); ?></h3>
+					<h3 class="title_new">
+					<a href="<?php the_permalink(); ?>">
+						<?php the_title(); ?></a>
+					</h3>
 					<div class="clearfix clearfix-5"></div>
-					<div class="des_new"><?php echo wp_trim_words(get_the_excerpt(), 15); ?></div>
+					<div class="des_new"><?php echo wp_trim_words(get_the_excerpt(), 14); ?></div>
 					</div>
 					
 					
