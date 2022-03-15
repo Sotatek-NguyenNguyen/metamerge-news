@@ -333,7 +333,8 @@ img {
     height: calc(94vh);
     display: flex;
     align-items: center;
-    background: url(../imgs/poster_2.jpg) no-repeat center center;
+    /* background: url(../imgs/poster_2.jpg) no-repeat center center; */
+    background: url(../imgs/Banner_1200x628_1.jpg) no-repeat center center;
     background-size: cover;
 }
 
