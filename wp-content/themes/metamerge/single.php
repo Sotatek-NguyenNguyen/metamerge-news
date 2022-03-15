@@ -20,7 +20,7 @@ get_header();
 ?>
 
 <article id="body_home">
-	<section class="section_header_news">
+	<section class="header_single">
         <div class="container-fluid">
           <h2 class="title_header_news">News and Partnerships</h2>
           <button type="button" class="btn btn_sign_up" data-bs-toggle="modal" data-bs-target="#modalSignUp">
