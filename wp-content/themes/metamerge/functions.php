@@ -151,7 +151,6 @@ function contact_init() {
 	if ($_POST['formData']) {
 		$formData = $_POST['formData'];
 	}
-	// var_dump($formData);
 
 	//send mail
 	$to = get_option( 'admin_email' ); 
